@@ -1,0 +1,15 @@
+apiVersion: datadog/v2
+kind: DataDog
+spec:
+  auth:
+    dd_site: "datadoghq.com"
+    dd_api_key: "--"
+    dd_app_key: "--"
+  datadog_filter:
+    query: ''
+    from: 0
+    to: 0
+  mapping:
+  - field: "test"
+    dd_field: "test"
+  
